@@ -1,0 +1,55 @@
+/* Global */
+a:hover{
+  text-decoration: none!important;
+}
+
+
+.vheight-100 {
+  min-height: 100vh;
+}
+
+.below-nav {
+  padding-top: 5rem;
+}
+
+/* Filters and projects */
+.list-group-item {
+  background-color: transparent;
+}
+
+.list-group-item.active {
+  background-color: #28a745!important;
+  border-color: #28a745!important;
+}
+
+.list-group-item-action:hover {
+  background-color: #9becae;
+}
+
+.projects-title {
+  margin-top: 2rem;
+}
+
+/* Class for important tasks */
+.important {
+  color: red;
+}
+
+/* Add task button */
+.fixed-right-bottom {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 1030;
+  margin: 0 1.5rem 1.5rem 0 ;
+  border-radius: 50% !important;
+}
+
+#plusbutton{ 
+  font-family: initial;
+  width: 50px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0% 6% 7% 0%!important;
+}
